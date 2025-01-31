@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src=" " class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Ayush Tyagi</span><br> From Ghaziabad</h1>
+        </div>
+    </div>
+   </div>
+<!------------------about--------------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Image_src2.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittle">About Me</h1>
+                <p>I am currently pursuing a B.Tech in Computer Science and Engineering with a specialization in Cyber Security at the SRM Institute of
+                    Science and Technology. Gaining a strong foundation in core computer science concepts while focusing on the latest developments
+                    in cybersecurity protocols, threat detection, and risk management.I am a proactive learner who is always eager to stay updated with
+                    the latest industry trends and emerging technologies.</p>
+
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Tecnical Skills</span><br>Java, Python, C, SQL, DSA, OOPs, GitHub, AWS Cloud Basics</li>
+                            <li><span>Web Development</span><br>HTML5, CSS, JavaScript, React.js, Bootstap, Tailwind, MongoDB, Node.js and Express</li>
+                            <li><span>Others</span><br>Operating System, Software Development, Computer Networking, Cryptography, Database Security, Cloud Security, Mobile and Wireless Security</li>
+                            <li><span>Soft Skills</span><br>Problem Solving, Time Management, Leadership, Teamwork, Interpersonal Skills , Adaptability, Relability</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span><h4>Deloite (Forage)</h4></span> <h4>Technology Consultant &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  1-Dec-23 To 31-Dec-23</h4>
+                                During my internship at Deloitte, I have completed various day-to-day tasks, such as:<br>
+                                • Unifying two different JSON files and getting a unified result using Python.<br>
+                                • Created a dashboard using Tableau software using data analysis.<br>
+                                • Proposed a software development template.<br>
+                                • Developed an Excel file for data on employee compensation<br></li>
+                            <li><span><h4>Amazon (AWS)</h4></span> <h4>Cloud Vrtual Intern &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  1-Sep-23 To 31-Oct-23 </h4>
+                                • As a virtual intern at AWS, I had the unique opportunity to immerse my self in cloud computing and gain hand-on- experience with
+                                cutting edge technologies.<br>
+                                • Collaborated with cross-functional teams to design ,implement and optimize cloud solutions for AWS customers.<br>
+                                • Assisted in the development and deployment of cloud applications and services using AWS tools such as Amazon EC2,Lambda
+                                and more.<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><h4>2021-Current </h4> </span><h4>8.94 cgpa</h4> <h4>B.Tech From SRM IST, Delhi ncr campus, Ghaziabad.</b4></li>
+                            <li><span><h4>2020-2021 </h4></span> <h4>72.20%</h4><h4>Intermediate From C.P.S, Siyana.</h4></li>
+                            <li><span><h4>2018-2019 <h4></h4></span><h4>70.66%</h4><h4>High-School From C.P.S, Siyana.</h4></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+
+   <!-----------------Services---------------------->
+
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-tittle">My Services</h1>  
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Description</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Software Developer</h2>
+                <p>Description</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Data Analyst</h2>
+                <p>Description</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-------------Portfolio----------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>  
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Amazon Website Clone</h3>
+                        <p> Designed and developed a responsive front-end clone of the Amazon website using HTML and CSS.</p>
+                            <a href="https://github.com/ayush2083/Amazon_Website_Clone_Project"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Sentiment_Analysis_Projects.png">
+                    <div class="layer">
+                        <h3>Twitter Sentiment Analysis Using NLP</h3>
+                        <p> Developed a machine learning model to analyze the sentiment of tweets as positive, negative, or neutral using Natural Language
+                            Processing (NLP).</p>
+                            <a href="https://colab.research.google.com/drive/1gMeF3dMnC5nByHROThb7jC3iOE2vxQu3?usp=sharing"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Image 2.png"><div class="layer">
+                        <h3>Personal Portfolio Website</h3>
+                        <p> Developed a responsive and interactive personal portfolio website using HTML5, CSS, and JavaScript.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+
+
+    <!------------------Contact----------------->
+   
+    <div id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> tyagiayush2083@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9719272083</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ayush-tyagi-02a916280"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/ayush2083"><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    </div>
+                    <a href="Ayush Tyagi_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="E-mail" placeholder="Your E-mail" required>
+                    <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+               </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Ayush Tyagi. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+   
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+   </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyCWLQuDDhPfQepEmY_nz3XvjLYFJ0MlRR_t9Z6zqKORWXBKiRidJt6t7i6xFvzw20Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
