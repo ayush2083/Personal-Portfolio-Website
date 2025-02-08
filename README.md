@@ -10,4 +10,5 @@
  
  • Used media queries to ensure the website is fully responsive across all devices.
  
- • Deployed the website on GitHub for live access.
+ • Deployed the website on GitHub for live access https://ayush2083.github.io/Personal-Portfolio-Website/
+ .
